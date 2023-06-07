@@ -25,9 +25,7 @@ export default function Emoji(props) {
   const likedClasses = `${classes.emoji} ${isLiked ? classes.isLiked : ""}`;
 
   const deleteTrack = () => {
-    const url =
-      "https://us-central1-music-app-d9fea.cloudfunctions.net/deleteTrack/" +
-      props.id;
+    const url = "http://localhost:4000/api/tracks/delete/" + props.id;
 
     axios
       .delete(url)

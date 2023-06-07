@@ -113,8 +113,7 @@ export default function UploadTrack(props) {
     }
   };
 
-  const url =
-    "https://us-central1-music-app-d9fea.cloudfunctions.net/postTrack";
+  const url = "http://localhost:4000/api/tracks/save";
 
   const onUploadTrack = (event) => {
     event.preventDefault();
@@ -204,7 +203,7 @@ export default function UploadTrack(props) {
             <div className={classes.arrays}>
               <label htmlFor="genres">Genres:</label>
               {genres.map((genre) => (
-                <div key={genre}>
+                <div>
                   <label>{genre}</label>
                   <input
                     onChange={handleInputChange}
@@ -220,7 +219,7 @@ export default function UploadTrack(props) {
               <label htmlFor="moods">Moods:</label>
 
               {moods.map((mood) => (
-                <div key={mood}>
+                <div>
                   <label>{mood}</label>
                   <input
                     onChange={handleInputChange}
@@ -236,7 +235,7 @@ export default function UploadTrack(props) {
               <label htmlFor="instruments">Instruments:</label>
 
               {instruments.map((instrument) => (
-                <div key={instrument}>
+                <div>
                   <label>{instrument}</label>
                   <input
                     onChange={handleInputChange}

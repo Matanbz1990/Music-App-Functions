@@ -16,7 +16,7 @@ export default function MusicList(props) {
       {props.tracks.map((track) => {
         return (
           <Track
-            key={track.trackUrl}
+            key={track._id}
             currentTrack={track}
             isPlaying={isPlaying && currentTrackIdUrl === track.trackUrl} // Set isPlaying to true only for the current track
           />
