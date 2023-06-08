@@ -12,9 +12,8 @@ export default function TracksProvider(props) {
         const response = await axios.get(
           "https://us-central1-music-app-d9fea.cloudfunctions.net/getTracks"
         );
-        const myTracks = JSON.parse(response.data.track);
 
-        setTracks(myTracks);
+        setTracks(JSON.parse(response.data.track));
       } catch (error) {
         console.error("Error fetching data:", error);
       }

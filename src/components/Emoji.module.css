@@ -8,6 +8,7 @@
   margin-left: 10px;
   border: 1px solid;
   padding: 5px;
+  transition: all 0.5s ease;
 }
 .duration {
   font-size: 18px;

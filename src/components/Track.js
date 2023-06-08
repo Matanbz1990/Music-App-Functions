@@ -42,12 +42,12 @@ export default function Track(props) {
             onPlay={props.onPlay}
           />
           <div className={classes.songAndArtist}>
-            <div className={classes.titleAndDuration}>
-              <h3 className={classes.title}>{track.title} </h3>
-              <p className={classes.duration}>{track.duration}</p>
-            </div>
-            <p>{track.artist}</p>
+            {/* <div className={classes.titleAndDuration}> */}
+            <h3 className={classes.title}>{track.title} </h3>
+            {/* </div> */}
+            <p className={classes.artist}>{track.artist}</p>
           </div>
+          <p className={classes.duration}>{track.duration}</p>
         </div>
         <div className={classes.trackClasses2}>
           <div className={classes.geners}>
