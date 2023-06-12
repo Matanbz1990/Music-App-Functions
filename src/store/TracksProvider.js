@@ -10,10 +10,10 @@ export default function TracksProvider(props) {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:4000/api/tracks/getAll"
+          "https://us-central1-music-app-d9fea.cloudfunctions.net/getTracks"
         );
 
-        setTracks(response.data.track);
+        setTracks(JSON.parse(response.data.track));
       } catch (error) {
         console.error("Error fetching data:", error);
       }
