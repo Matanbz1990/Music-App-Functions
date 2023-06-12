@@ -10,7 +10,6 @@
   color: white;
   box-shadow: 0 1px 5px rgb(50, 50, 50);
 
-  /* margin-left: 10px; */
   margin-right: 35px;
 }
 
@@ -18,34 +17,19 @@
   width: 95%;
 }
 .isPlayingClass {
-  /* background-image: url("https://www.transparenttextures.com/patterns/argyle.png"); */
   background-color: #3a0808;
-  /* width: 100%; */
-  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-}
-
-.trackEmojis {
-  /* flex: 3; */
 }
 
 .songAndArtist {
-  /* margin-top: auto;*/
   text-align: left;
   width: 30%;
 }
-.songAndArtist h3 {
-  /* margin-top: 0;
-  margin-bottom: 0; */
-  /* max-width: 50%; */
-}
+
 .titleAndDuration {
   display: flex;
   align-items: baseline;
   color: white;
 }
-/* .duration {
-  margin: auto;
-} */
 
 .titleAndDuration h3 {
   margin-right: 10px;
@@ -67,6 +51,14 @@
   font-size: small;
   max-height: 5rem;
 }
+.link {
+  text-decoration: none;
+  color: aliceblue;
+  transition: all 0.5s ease;
+}
+.link:hover {
+  color: rgb(187, 206, 228);
+}
 
 .item {
   border: solid 1px;
@@ -81,10 +73,14 @@
   cursor: pointer;
 }
 .trackImg {
-  /* margin: 0; */
   margin-top: auto;
   width: 6rem;
   height: 6rem;
+}
+.trackImg:hover {
+  opacity: 20;
+
+  color: rgb(187, 206, 228);
 }
 img:hover {
 }
