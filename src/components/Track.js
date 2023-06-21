@@ -3,6 +3,8 @@ import classes from "./Track.module.css";
 import Emoji from "./Emoji";
 import AudioPlayer from "./AudioPlayer";
 import { Link } from "react-router-dom";
+import loading from "../assets/images/loading.png";
+import "lazysizes";
 
 export default function Track(props) {
   const trackClasses = `${classes.trackDetailes} ${
@@ -17,18 +19,21 @@ export default function Track(props) {
     marginTop: "10px",
     // border: "solid black 1px",
   };
+
   return (
     <div style={imgBackground}>
       <div className={trackClasses}>
         <div className={classes.trackClasses1}>
           {track.imgUrl && (
             <Link to={`/modal/${track._id}`} className={classes.link}>
+              {/* <DoubleRightOutlined className={classes.arrow} /> */}
               <img
                 alt="non"
-                src={track.imgUrl}
-                className={classes.trackImg}
-                width="900"
-                height="200"
+                data-src={track.imgUrl}
+                src={loading}
+                className="lazyload"
+                width="95px"
+                height="95px"
               />
             </Link>
           )}
@@ -41,15 +46,16 @@ export default function Track(props) {
             id={track._id}
             onPlay={props.onPlay}
           />
+          <div className={classes.songAndArtistAndDuration}>
+            <div className={classes.songAndArtist}>
+              <Link to={`/modal/${track._id}`} className={classes.link}>
+                <h3 className={classes.title}>{track.title} </h3>
+              </Link>
 
-          <div className={classes.songAndArtist}>
-            <Link to={`/modal/${track._id}`} className={classes.link}>
-              <h3 className={classes.title}>{track.title} </h3>
-            </Link>
-
-            <p className={classes.artist}>{track.artist}</p>
+              <p className={classes.artist}>{track.artist}</p>
+            </div>
+            <p className={classes.duration}>{track.duration}</p>
           </div>
-          <p className={classes.duration}>{track.duration}</p>
         </div>
         <div className={classes.trackClasses2}>
           <div className={classes.geners}>

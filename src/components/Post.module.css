@@ -1,0 +1,41 @@
+.titleAndAuthor h3 {
+  text-align: center;
+}
+
+.content {
+  font-size: x-large;
+  width: 100%;
+  text-align: left;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.link {
+  text-decoration: none;
+  color: aliceblue;
+  margin: 20px;
+  transition: all 0.5s ease;
+  font-size: larger;
+  margin-left: 100px;
+}
+article {
+  width: 50%;
+
+  margin: auto;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .content {
+    font-size: large;
+  }
+  .titleAndAuthor h1 {
+    font-size: larger;
+    margin-top: 50px;
+  }
+
+  .titleAndAuthor h3 {
+    font-size: medium;
+  }
+  article {
+    width: 85%;
+  }
+}

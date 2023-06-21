@@ -18,12 +18,10 @@
 @media (max-width: 600px) {
   .contactText {
     display: block;
+    margin: auto;
+    margin-left: 20px;
   }
   .contactText img {
-    width: 100%;
-    height: auto;
-    margin: auto;
-    margin: 10px;
   }
   .contactText h2 {
     font-size: large;

@@ -1,5 +1,8 @@
 import classes from "./Contact.module.css";
 import SecondImg from "../assets/images/SecondImg.jpg";
+import loading from "../assets/images/loading.png";
+import Spotify_icon from "../assets/images/Spotify_icon.svg.png";
+
 import {
   MailOutlined,
   LinkedinOutlined,
@@ -7,17 +10,25 @@ import {
   WhatsAppOutlined,
   YoutubeOutlined,
 } from "@ant-design/icons";
+
+const imgStyle = {
+  width: "20rem",
+  height: "30rem",
+  margin: "auto",
+};
 export default function About() {
   return (
     <div>
       <h1>Contact details</h1>
       <div className={classes.contactText}>
         <img
+          style={imgStyle}
           alt="profileImage"
-          src={SecondImg}
+          data-src={SecondImg}
           width="400"
+          src={loading}
           //   height="200"
-          cl
+          className="lazyload"
         />
         <div>
           <h2>
@@ -56,12 +67,21 @@ export default function About() {
             </a>
           </h2>
           <h2>
-            <a
-              className={classes.link}
-              href="https://open.spotify.com/artist/6q2fZsJksGnsh2KZXmS7sZ?si=1GNxnGCzQmat04DlBo8LKA"
-            >
-              Spotify
-            </a>
+            <div>
+              <a
+                className={classes.link}
+                href="https://open.spotify.com/artist/6q2fZsJksGnsh2KZXmS7sZ?si=1GNxnGCzQmat04DlBo8LKA"
+              >
+                <img
+                  alt="_2077"
+                  data-src={Spotify_icon}
+                  height="20"
+                  src={loading}
+                  className="lazyload"
+                />
+                Spotify
+              </a>
+            </div>
           </h2>
         </div>
       </div>

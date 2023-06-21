@@ -1,0 +1,41 @@
+.post {
+  text-align: center;
+  color: aliceblue;
+  width: 60%;
+  text-align: left;
+  margin: auto;
+  border: 1px solid aliceblue;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: rgb(3, 0, 0);
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+}
+
+.postsH2 {
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+  color: aliceblue;
+  /* margin: 20px; */
+  transition: all 0.5s ease;
+  font-size: larger;
+  margin-left: 100px;
+}
+@media (max-width: 600px) {
+  .post {
+    width: 80%;
+  }
+
+  .post h2 {
+    font-size: large;
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  .link h3 {
+    font-size: large;
+  }
+}

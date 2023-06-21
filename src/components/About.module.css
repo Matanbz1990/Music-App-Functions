@@ -11,6 +11,7 @@
   font-size: larger;
   margin: 0 3rem;
   font-weight: 300;
+  text-align: left;
 }
 @media (max-width: 600px) {
   .aboutText {
@@ -18,7 +19,8 @@
     display: block;
   }
   .aboutText p {
-    font-size: medium;
+    font-size: large;
+    margin: 20px;
   }
   .aboutText img {
     width: 100%;
