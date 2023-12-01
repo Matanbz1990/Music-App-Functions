@@ -22,13 +22,15 @@ export default function About() {
           className="lazyload"
         />
         <p className={classes.aboutTextP}>
-          Matan Ben Zahav is a versatile musician, composer, and
-          multi-instrumentalist hailing from Israel. With a passion for creating
-          captivating melodies and harmonies, Matan has established himself as a
-          prominent figure in the world of music. His expertise spans across
-          various genres, including classical, theatre, film music, and pop
-          songs. As a music producer, Matan brings his unique vision to life by
-          crafting captivating soundscapes.
+          Matan Ben Zahav, a versatile musician and composer from Israel, is not
+          only a skilled lecturer and multi-instrumentalist but also a prominent
+          figure in the global music scene. His passion for crafting enchanting
+          melodies and harmonies has solidified his position as an expert across
+          diverse genres such as classical, theatre, film music, and pop songs.
+          Currently, Matan serves as a lecturer for Harmony and Ear Training at
+          "Mizmor" music college in "Givat Washington." In addition to his
+          teaching role, he excels as a music producer, breathing life into his
+          distinctive vision by creating mesmerizing soundscapes.
           <h3>Instrumentalist Extraordinaire:</h3> With a natural inclination
           for musical instruments, Matan showcases his immense talent on the
           piano, guitar, saxophone, clarinet, and flute. His command over these
@@ -40,9 +42,10 @@ export default function About() {
         <p>
           <h3>Collaborations and Performances:</h3> Throughout his career, Matan
           has had the privilege of collaborating with renowned artists and bands
-          such as Yishay Ribo, the Moshav Band, the Solomon Brothers, and Mark
-          Eliyahoo. These collaborations have enriched his musical journey and
-          have helped him evolve as a musician.
+          such as Yishay Ribo,Ehud Banay,Miri Mesika,Bar Tzabari, Oriyan
+          Shukron, the Moshav Band, the Solomon Brothers, and Mark Eliyahoo.
+          These collaborations have enriched his musical journey and have helped
+          him evolve as a musician.
           <h3>Academic Background:</h3> Matan's dedication to his craft is
           further exemplified by his academic achievements. He holds a
           Bachelor's and Master's degree in Composition, as well as a Bachelor's

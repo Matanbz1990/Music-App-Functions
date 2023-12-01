@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Button } from "antd";
 import { Link } from "react-router-dom";
 import { useContext } from "react";
-import profileImage from "../assets/images/Profile.png";
+import MatanRounded from "../assets/images/MatanRounded.png";
 import { AuthContext } from "../store/AuthProvider";
 import UploadTrack from "../components/UploadTrack";
 import { AudioContext } from "../store/AudioProvider";
@@ -35,7 +35,7 @@ export default function Header() {
         <Link to={"/"} className={classes.navLink}>
           <img
             alt="profileImage"
-            src={profileImage}
+            src={MatanRounded}
             width="50"
             height="50"
             className={classes.headerImg}
