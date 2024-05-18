@@ -7,7 +7,7 @@
 }
 .navLink {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   text-decoration: none;
   color: aliceblue;
   /* flex: 1; */

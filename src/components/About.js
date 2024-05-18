@@ -5,10 +5,14 @@ import "lazysizes";
 import img1 from "../assets/images/1222.jpg";
 import Acl11 from "../assets/images/Acl11.png";
 import Acl3 from "../assets/images/Acl3.jpg";
-import img3 from "../assets/images/_0188.jpg";
+import Barbi1 from "../assets/images/Barbi1.jpg";
+import Barbi2 from "../assets/images/Barbi2.jpg";
+import Barbi3 from "../assets/images/Barbi3.jpg";
+import Barbi4 from "../assets/images/Barbi4.jpg";
 import Matan3 from "../assets/images/Matan3.JPG";
 import _2077 from "../assets/images/_2077.jpg";
 import loading from "../assets/images/loading.png";
+import { Flex } from "antd";
 export default function About() {
   return (
     <div>
@@ -41,11 +45,52 @@ export default function About() {
       <div className={classes.aboutText}>
         <p>
           <h3>Collaborations and Performances:</h3> Throughout his career, Matan
-          has had the privilege of collaborating with renowned artists and bands
-          such as Yishay Ribo,Ehud Banay,Miri Mesika,Bar Tzabari, Oriyan
+          has had the privilege of collaborating and playing with renowned
+          artists and bands such as Yishay Ribo,Ehud Banay,Miri Mesika,Bar
+          Tzabari,Ninet Tayeb, Alon Eder ,Caorlina, Riki Gal,Yuval Dayan,Oriyan
           Shukron, the Moshav Band, the Solomon Brothers, and Mark Eliyahoo.
           These collaborations have enriched his musical journey and have helped
           him evolve as a musician.
+          <div className={classes.imgs}>
+            <img
+              alt="Barbi1"
+              data-src={Barbi1}
+              src={loading}
+              effect="blur"
+              width="500"
+              height="300"
+              className="lazyload"
+            />
+            <img
+              alt="Barbi2"
+              data-src={Barbi2}
+              src={loading}
+              effect="blur"
+              width="500"
+              height="300"
+              className="lazyload"
+            />
+            <h4>with Yuval Dayan and Oriyan Shukron at the "Barbi" club</h4>
+            <img
+              alt="Barbi3"
+              data-src={Barbi3}
+              src={loading}
+              effect="blur"
+              width="500"
+              height="300"
+              className="lazyload"
+            />
+            <h4>with Riki Gal and Oriyan Shukron at the "Barbi" club</h4>
+            <img
+              alt="Barbi4"
+              data-src={Barbi4}
+              src={loading}
+              effect="blur"
+              width="500"
+              height="300"
+              className="lazyload"
+            />
+          </div>
           <h3>Academic Background:</h3> Matan's dedication to his craft is
           further exemplified by his academic achievements. He holds a
           Bachelor's and Master's degree in Composition, as well as a Bachelor's

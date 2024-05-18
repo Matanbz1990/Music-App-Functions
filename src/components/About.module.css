@@ -7,6 +7,14 @@
   margin-top: 2rem;
   margin-bottom: 30px;
 }
+.imgs {
+  /* display: flex;
+  justify-content: space-around; */
+  margin: 50px;
+}
+img {
+  margin-top: 20px;
+}
 .aboutText p {
   font-size: larger;
   margin: 0 3rem;

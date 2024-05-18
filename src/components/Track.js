@@ -32,8 +32,8 @@ export default function Track(props) {
                 data-src={track.imgUrl}
                 src={loading}
                 className="lazyload"
-                width="95px"
-                height="95px"
+                width="75px"
+                height="75px"
               />
             </Link>
           )}
