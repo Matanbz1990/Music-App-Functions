@@ -24,6 +24,8 @@
   justify-content: space-around;
   text-decoration: none;
 }
+.textimg h4 {
+}
 @media (max-width: 600px) {
   .text {
     width: 75%;

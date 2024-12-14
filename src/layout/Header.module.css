@@ -7,7 +7,7 @@
 }
 .navLink {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   text-decoration: none;
   color: aliceblue;
   /* flex: 1; */
@@ -124,9 +124,15 @@
   .header {
     display: block;
     /* height: 14rem; */
+    text-align: center;
+    margin: auto;
   }
   .titleAndLinks {
+    padding: auto;
+    justify-content: center;
     display: block;
+    text-align: center;
+    margin: auto;
   }
   .pauseIt {
     /* width: 20rem; */
@@ -166,9 +172,7 @@
     /* border: solid, white, 1px; */
     /* margin: 20px 0; */
   }
-  .nowPlayingHeaderText {
-    /* text-align: center; */
-  }
+
   .trackImg {
     margin-right: 0;
   }

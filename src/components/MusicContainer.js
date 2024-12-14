@@ -9,7 +9,6 @@ export default function MusicContainer() {
   const ctx = useContext(TracksContext);
   const allTracks = ctx.tracks;
   const filtersOptions = ctx.filteredOptions;
-  // console.log(allTracks);
   const [filteredTracks, setFilteredTracks] = useState(allTracks);
 
   //order tracks-firstly "Inspiration"

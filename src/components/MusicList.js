@@ -11,7 +11,7 @@ export default function MusicList(props) {
   return (
     <div className={classes.scrollable}>
       {props.tracks.length === 0 && (
-        <h3 className={classes.scrollableH3}>No track found</h3>
+        <h3 className={classes.scrollableH3}>sometimes it takes time... (:</h3>
       )}
       {props.tracks.map((track) => {
         return (

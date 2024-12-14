@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Button } from "antd";
 import { Link } from "react-router-dom";
 import { useContext } from "react";
-import MatanRounded from "../assets/images/MatanRounded.png";
+import RoundedNatural from "../assets/images/RoundedNatural.png";
 import { AuthContext } from "../store/AuthProvider";
 import UploadTrack from "../components/UploadTrack";
 import { AudioContext } from "../store/AudioProvider";
@@ -32,27 +32,30 @@ export default function Header() {
   return (
     <div className={classes.header}>
       <div className={classes.titleAndLinks}>
-        <Link to={"/"} className={classes.navLink}>
+        <Link to={"/"} className={classes.link}>
           <img
             alt="profileImage"
-            src={MatanRounded}
-            width="50"
-            height="50"
+            src={RoundedNatural}
+            width="70"
+            height="70"
             className={classes.headerImg}
           />
+        </Link>
+        <Link to="/" className={classes.link}>
           <h3>Matan Music</h3>
         </Link>
-        <div className={classes.links}>
-          <Link to="/about" className={classes.link}>
-            <h3>About</h3>
-          </Link>
-          <Link to="/posts" className={classes.link}>
-            <h3>Posts</h3>
-          </Link>
-          <Link to="/contact" className={classes.link}>
-            <h3>Contact</h3>
-          </Link>
-        </div>
+        <Link to="/about" className={classes.link}>
+          <h3>About</h3>
+        </Link>
+        <Link to="/posts" className={classes.link}>
+          <h3>Posts</h3>
+        </Link>
+        <Link to="/contact" className={classes.link}>
+          <h3>Contact</h3>
+        </Link>
+        <Link to="https://matanmusic.com/" className={classes.link}>
+          <h3>Hebrew Official Website</h3>
+        </Link>
       </div>
       {audioCtx.isPlaying && (
         <div className={classes.nowPlayingTitle}>
