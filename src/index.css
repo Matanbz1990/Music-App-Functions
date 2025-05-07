@@ -6,8 +6,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: aliceblue;
-  background-color: #000000;
-  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+  background-color: #181818;
+  /* background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png"); */
+  background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 h1 {

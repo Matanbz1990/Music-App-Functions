@@ -8,8 +8,8 @@ export default function HomeText() {
     <div className={classes.text}>
       <div className={classes.textimg}>
         <div>
-          <h1>Matan Ben Zahav</h1>
-          <h4>Composer | Creator | Lecturer</h4>
+          <h1>Matan Lavi Ben Zahav</h1>
+          <h3>Composer | Creator | Lecturer | Software Developer</h3>
         </div>
         <img
           alt="_2077"
@@ -19,13 +19,13 @@ export default function HomeText() {
           className="lazyload"
         />
       </div>
-      <h4>here you can find and everything about Matan's music world</h4>
-      <p>
-        for reading about Matan press
+      <h3>Here you can find and everything about Matan's music world</h3>
+      <h3>
+        For reading about Matan press
         <Link to="/about" className={classes.link}>
           here
         </Link>
-      </p>
+      </h3>
     </div>
   );
 }

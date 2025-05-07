@@ -8,6 +8,7 @@ import Acl3 from "../assets/images/Acl3.jpg";
 import Barbi1 from "../assets/images/Barbi1.jpg";
 import Barbi2 from "../assets/images/Barbi2.jpg";
 import Barbi3 from "../assets/images/Barbi3.jpg";
+import Nature from "../assets/images/Nature.png";
 import Barbi4 from "../assets/images/Barbi4.jpg";
 import Matan3 from "../assets/images/Matan3.JPG";
 import _2077 from "../assets/images/_2077.jpg";
@@ -20,7 +21,7 @@ export default function About() {
       <div className={classes.aboutText}>
         <img
           alt="_2077"
-          data-src={_2077}
+          data-src={Nature}
           height="400"
           src={loading}
           className="lazyload"
@@ -31,10 +32,10 @@ export default function About() {
           figure in the global music scene. His passion for crafting enchanting
           melodies and harmonies has solidified his position as an expert across
           diverse genres such as classical, theatre, film music, and pop songs.
-          Currently, Matan serves as a lecturer for Harmony and Ear Training at
-          "Mizmor" music college in "Givat Washington." In addition to his
-          teaching role, he excels as a music producer, breathing life into his
-          distinctive vision by creating mesmerizing soundscapes.
+          Currently, Matan serves as a lecturer for Composition, Harmony and Ear
+          Training at "Mizmor" music college in "Givat Washington." In addition
+          to his teaching role, he excels as a music producer, breathing life
+          into his distinctive vision by creating mesmerizing soundscapes.
           <h3>Instrumentalist Extraordinaire:</h3> With a natural inclination
           for musical instruments, Matan showcases his immense talent on the
           piano, guitar, saxophone, clarinet, and flute. His command over these

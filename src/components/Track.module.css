@@ -64,7 +64,9 @@
 .link:hover {
   color: rgb(187, 206, 228);
 }
-
+.link img {
+  margin: auto;
+}
 .item {
   border: solid 1px;
   padding: 1px 3px;
