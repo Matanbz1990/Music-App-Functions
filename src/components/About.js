@@ -4,7 +4,7 @@ import "lazysizes";
 // import axios from "axios";
 import img1 from "../assets/images/1222.jpg";
 import Acl11 from "../assets/images/Acl11.png";
-import Acl3 from "../assets/images/Acl3.jpg";
+import SecondImg from "../assets/images/SecondImg.jpg";
 import Barbi1 from "../assets/images/Barbi1.jpg";
 import Barbi2 from "../assets/images/Barbi2.jpg";
 import Barbi3 from "../assets/images/Barbi3.jpg";
@@ -149,9 +149,9 @@ export default function About() {
           versatility and ability to create impactful musical experiences.
         </p>
         <img
-          alt="Acl3"
+          alt="SecondImg"
           effect="blur"
-          data-src={Acl3}
+          data-src={SecondImg}
           src={loading}
           width="600"
           height="400"
