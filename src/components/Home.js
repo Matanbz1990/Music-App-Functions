@@ -1,5 +1,4 @@
 import React from "react";
-
 import classes from "./Home.module.css";
 import MusicContainer from "./MusicContainer";
 import HomeText from "./HomeText";

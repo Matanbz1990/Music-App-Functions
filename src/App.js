@@ -11,8 +11,17 @@ import { PostsProvider } from "./store/PostsProvider";
 import { AudioProvider } from "./store/AudioProvider";
 import { AuthProvider } from "./store/AuthProvider";
 import { Home, Login } from "./components";
+import SplashScreen from "./SplashScreen";
+import { useState } from "react";
 
 function App() {
+  const [showSplash, setShowSplash] = useState(true);
+
+  if (showSplash) {
+    // מציגים רק את הספלש סקרין (מסך פתיחה)
+    return <SplashScreen onFinish={() => setShowSplash(false)} />;
+  }
+
   return (
     <AuthProvider>
       <TracksProvider>

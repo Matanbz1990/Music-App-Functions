@@ -7,7 +7,6 @@ import { AuthContext } from "../store/AuthProvider";
 import UploadTrack from "../components/UploadTrack";
 import { AudioContext } from "../store/AudioProvider";
 import { PauseCircleOutlined } from "@ant-design/icons";
-
 import classes from "./Header.module.css";
 export default function Header() {
   const [showUpload, isShowUpload] = useState(false);
@@ -35,9 +34,9 @@ export default function Header() {
         <Link to={"/"} className={classes.link}>
           <img
             alt="profileImage"
-            src={RoundedNatural}
-            width="70"
-            height="70"
+            src="Logo.png"
+            width="50"
+            height="40"
             className={classes.headerImg}
           />
         </Link>

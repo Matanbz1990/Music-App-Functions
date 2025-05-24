@@ -8,7 +8,7 @@ export default function HomeText() {
     <div className={classes.text}>
       <div className={classes.textimg}>
         <div>
-          <h1>Matan Lavi Ben Zahav</h1>
+          <h1>Matan Ben Zahav</h1>
           <h3>Composer | Creator | Lecturer | Software Developer</h3>
         </div>
         <img
